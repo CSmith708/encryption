@@ -28,16 +28,9 @@ public class Main {
         System.out.println("Encrypted text: " + encryptedText);
 
         String decryptedText = decrypt(encryptedText);
-        System.out.println("Encrypted text: " + decryptedText);
+        System.out.println("Decrypted text: " + decryptedText);
 
         bruteForceDecrypt(encryptedText);
-
-
-
-
-
-
-
 
     }
 
@@ -109,21 +102,22 @@ public class Main {
         alphabetMap.put('H', '&');
         alphabetMap.put('I', '*');
         alphabetMap.put('J', '#');
-        alphabetMap.put('L', '~');
-        alphabetMap.put('M', '!');
-        alphabetMap.put('N', '@');
-        alphabetMap.put('O', '#');
-        alphabetMap.put('P', '$');
-        alphabetMap.put('Q', '%');
-        alphabetMap.put('R', '^');
-        alphabetMap.put('S', '&');
-        alphabetMap.put('T', '*');
-        alphabetMap.put('U', '#');
-        alphabetMap.put('V', '~');
-        alphabetMap.put('W', '!');
-        alphabetMap.put('X', '@');
-        alphabetMap.put('Y', '#');
-        alphabetMap.put('Z', '$');
+        alphabetMap.put('K', '~');
+        alphabetMap.put('L', '!');
+        alphabetMap.put('M', '@');
+        alphabetMap.put('N', '#');
+        alphabetMap.put('O', '$');
+        alphabetMap.put('P', '%');
+        alphabetMap.put('Q', '^');
+        alphabetMap.put('R', '&');
+        alphabetMap.put('S', '*');
+        alphabetMap.put('T', '#');
+        alphabetMap.put('U', '~');
+        alphabetMap.put('V', '!');
+        alphabetMap.put('W', '@');
+        alphabetMap.put('X', '#');
+        alphabetMap.put('Y', '$');
+        alphabetMap.put('z', '%');
 
         StringBuilder result = new StringBuilder();
 
